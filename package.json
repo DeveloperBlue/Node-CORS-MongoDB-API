@@ -1,0 +1,19 @@
+{
+  "name": "Node-CORS-SQL-API",
+  "version": "0.0.1",
+  "description": "CORS (Cross-Origin Resource Sharing) API build on NodeJS for accessing an SQL database with HTTP Methods (POST, GET, etc.)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser" : "^1.0.1",
+    "mysql" : "^2.16.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "Michael Rooplall",
+  "license": "ISC"
+}
