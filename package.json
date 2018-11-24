@@ -6,9 +6,14 @@
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeveloperBlue/Node-CORS-SQL-API.git"
+  },
   "dependencies": {
     "express": "^4.16.3",
     "body-parser" : "^1.0.1",
+    "cors" : "^2.8.4",
     "mysql" : "^2.16.0"
   },
   "engines": {
