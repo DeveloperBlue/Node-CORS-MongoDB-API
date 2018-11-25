@@ -10,6 +10,9 @@ const mongoDB		= require('mongodb');
 
 var router = express.Router();
 
+// <TODO>
+// Force HTTPS only connections for security
+
 
 // Express Setup
 // ================================================================================================ //
@@ -18,7 +21,6 @@ app.use(bodyParser.json());       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({extended: true})); // to support URL-encoded bodies
 
 // Setup CORS Whitelisting
-
 /*
 const whitelist = [""];
 var corsOptions = {
