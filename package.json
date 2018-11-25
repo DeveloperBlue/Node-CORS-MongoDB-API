@@ -1,20 +1,20 @@
 {
-  "name": "Node-CORS-SQL-API",
+  "name": "Node-CORS-MongoDB-API",
   "version": "0.0.1",
-  "description": "CORS (Cross-Origin Resource Sharing) API build on NodeJS for accessing an SQL database with HTTP Methods (POST, GET, etc.)",
+  "description": "CORS (Cross-Origin Resource Sharing) API build on NodeJS for accessing a MongoDB database with HTTP Methods (POST, GET, etc.)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DeveloperBlue/Node-CORS-SQL-API.git"
+    "url": "https://github.com/DeveloperBlue/Node-CORS-MongoDB-API.git"
   },
   "dependencies": {
     "express": "^4.16.3",
     "body-parser" : "^1.0.1",
     "cors" : "^2.8.4",
-    "mysql" : "^2.16.0"
+    "mongodb" : "^3.1.10"
   },
   "engines": {
     "node": "8.x"
