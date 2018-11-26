@@ -1,6 +1,6 @@
 {
   "name": "Node-CORS-MongoDB-API",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CORS (Cross-Origin Resource Sharing) API build on NodeJS for accessing a MongoDB database with HTTP Methods (POST, GET, etc.)",
   "main": "server.js",
   "scripts": {
